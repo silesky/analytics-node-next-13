@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "link-node": "yarn link ~/projects/analytics-next/packages/node --private",
-    "deploy": "yarn unlink @segment/analytics-node && vercel deploy && yarn link ~/projects/analytics-next/packages/node --private"
+    "symlink": "yarn link ../../analytics-next/packages/node --private",
+    "deploy": "yarn unlink @segment/analytics-node && vercel deploy && yarn symlink"
   },
   "dependencies": {
     "@segment/analytics-node": "^1.0.0-beta.23",
@@ -22,8 +22,5 @@
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
   },
-  "packageManager": "yarn@3.4.1",
-  "resolutions": {
-    "@segment/analytics-node": "portal:/Users/me/projects/analytics-next/packages/node"
-  }
+  "packageManager": "yarn@3.4.1"
 }
