@@ -403,7 +403,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "analytics-node-next-13@workspace:."
   dependencies:
-    "@segment/analytics-node": ^1.0.0-beta.22
+    "@segment/analytics-node": ^1.0.0-beta.23
     "@types/node": 18.14.1
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
