@@ -15,7 +15,6 @@ export const config = {
   runtime: "edge",
 };
 
-const webhook = 'https://webhook.site/01ff1bda-1c7d-4f7a-b596-e2886a28342d'
 export default async (req: NextRequest) => {
   await new Promise((resolve) =>
     analytics.track(

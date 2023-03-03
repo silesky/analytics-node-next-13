@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "link-node": "yarn link ~/projects/analytics-next/packages/node --private",
-    "deploy": "yarn unlink @segment/analytics-node && vercel deploy && yarn link-node"
+    "deploy": "yarn unlink @segment/analytics-node && vercel deploy && yarn link ~/projects/analytics-next/packages/node --private"
   },
   "dependencies": {
     "@segment/analytics-node": "^1.0.0-beta.22",
