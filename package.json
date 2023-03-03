@@ -20,8 +20,5 @@
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
   },
-  "packageManager": "yarn@3.4.1",
-  "resolutions": {
-    "@segment/analytics-node": "portal:/Users/me/projects/analytics-next/packages/node"
-  }
+  "packageManager": "yarn@3.4.1"
 }
