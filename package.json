@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel deploy"
   },
   "dependencies": {
     "@segment/analytics-node": "^1.0.0-beta.22",
@@ -20,5 +21,8 @@
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "resolutions": {
+    "@segment/analytics-node": "portal:/Users/me/projects/analytics-next/packages/node"
+  }
 }
