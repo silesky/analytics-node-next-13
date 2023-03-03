@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// @ts-ignore
 import { Analytics } from "@segment/analytics-node";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -14,6 +15,7 @@ export const config = {
   runtime: "edge",
 };
 
+const webhook = 'https://webhook.site/01ff1bda-1c7d-4f7a-b596-e2886a28342d'
 export default async (req: NextRequest) => {
   await new Promise((resolve) =>
     analytics.track(
