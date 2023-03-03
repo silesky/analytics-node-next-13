@@ -238,16 +238,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@segment/analytics-node@portal:/Users/me/projects/analytics-next/packages/node::locator=analytics-node-next-13%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@segment/analytics-node@portal:/Users/me/projects/analytics-next/packages/node::locator=analytics-node-next-13%40workspace%3A."
+"@segment/analytics-node@npm:^1.0.0-beta.22":
+  version: 1.0.0-beta.22
+  resolution: "@segment/analytics-node@npm:1.0.0-beta.22"
   dependencies:
     "@segment/analytics-core": 1.2.2
     node-fetch: ^2.6.7
     tslib: ^2.4.1
     uuid: ^9.0.0
+  checksum: 84112629bf0b83a014a75e75c714d4f4b684f88fa9b5dd4e3ce80e327acf3e5d2a19dcc0b0bd5dc112f44c381cb14e8d467856ec93e09922d6cbfdeb8b582f1e
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@swc/helpers@npm:0.4.14":
   version: 0.4.14
