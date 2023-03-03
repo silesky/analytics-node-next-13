@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "link-node": "yarn link ../../analytics-next/packages/node --private",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "link-node": "yarn link ../../analytics-next/packages/node --private",
     "deploy": "yarn unlink @segment/analytics-node && vercel deploy && yarn link-node"
   },
   "dependencies": {
